@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rubik's Cube</title>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="instructions">
+    <h1>Rubik's Cube Simulator</h1>
+    <p>Drag mouse to rotate camera</p>
+    <p>Shift + [] = CCW [] = []'</p>
+    <p>Face Moves: U, D, R, L, F, B</p>
+    <p>Slice Moves: M, E, S</p>
+    <p>Cube Rotations: X, Y, Z</p>
+    <div>
+        <button id="mixBtn">Mix / Scramble</button>
+        <button id="solveBtn">Reset / Solve</button>
+        <button id="resetCameraBtn">Reset Camera</button>
+        <button id="timerBtn">Start Timer</button>
+    </div>
+    <p id="timerDisplay">00:00:000</p>
+</div>
+<div id="container"></div>
+
+
+<!-- Added that Three.js file in -->
+<script src="three.min.js"></script>
+
+<!-- The js stuff for rubix cube -->
+<script src="script.js"></script>
+
+</body>
+</html>
