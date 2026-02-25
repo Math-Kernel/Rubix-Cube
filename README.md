@@ -2,7 +2,7 @@
 
 A Rubik's Cube simulator built with **Three.js**. Rotate, scramble and solve a virtual Rubik's Cube in your browser.
 
-Play here: 
+Play here: https://math-kernel.github.io/Rubix-Cube/
 
 ---
 
@@ -48,7 +48,9 @@ Play here:
 ## Project Structure
 
 ```
-├── index.html        # Main HTML file
-├── three.min.js      # Three.js file
-└── README.md         # README file
+├── index.html
+├── three.min.js
+├── style.css
+├── script.js
+└── README.md
 ```
